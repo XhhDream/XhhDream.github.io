@@ -1,2 +1,2 @@
 # XhhDream.github.io
-XhhDream博客
+一个初学者的博客
