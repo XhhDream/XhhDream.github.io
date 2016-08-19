@@ -53,3 +53,131 @@ nav .navActive{
 	border-radius: 10px;
 	cursor:pointer;
 }
+
+/*smartHome*/
+.smartCont{
+	margin-top: 90px;
+	height: 250px;
+}
+.smartCont li{
+	float: left;
+	text-align: center;
+	margin-right: 173px;
+}
+.smartCont li:last-child{
+	margin-right: 0px;
+}
+
+/*case*/
+.case{
+	height: 540px;
+	background: url("../img/case/case_bg.jpg");
+}
+.caseCont img{
+	clear: both;
+	margin-right: 8px;
+}
+.caseCont img:last-child{
+	margin-right: 0px;
+}
+.caseContTop{
+	margin-top: 35px;
+	margin-bottom: 5px;
+}
+
+/*fcreate*/
+.fcreate{
+	height: 540px;
+	background: url("../img/fcr_bg.jpg") -250px center; 
+}
+
+/*frontier*/
+.frontier{
+	height: 540px;
+	background: url("../img/frontier/fro_bg.jpg");
+	overflow: hidden;
+}
+.frontier li{
+	width: 460px;
+	height: 140px;
+}
+.frontier h4{
+	font-size: 14px;
+	margin-bottom:8px; 
+}
+.frontier p{
+	font-size: 12px;
+	color: #fff;
+	line-height: 20px;
+}
+.froLeft{
+	text-align: right;
+	margin-top: 126px;
+}
+.froCenter{
+	width: 77px;
+	height:298px;
+	background: url("../img/frontier/axis.png") no-repeat center center;
+	margin-top: 50px;
+}
+.froRight{
+	margin-top: 65px;
+}
+
+/*contact*/
+.contact{
+	height: 540px;
+	background: url("../img/contact_bg.jpg");
+}
+.contLeft input{
+	width: 385px;
+	height: 42px;
+	background-color: #5bb3e2;
+}
+.contLeft li{
+	width: 440px;
+	min-height: 43px;
+	background-color: #5bb3e2;
+	color: #e5e5e5;
+	border-bottom:1px solid #0575a7;
+	line-height: 42px;
+	padding-left: 20px;
+	font-size: 14px;
+}
+
+.message{
+	background-color: #5bb3e2;
+	width: 350px;
+	height: 95px;
+	resize: none;
+	margin-top: 14px;
+}
+.btn{
+	width: 460px;
+	height: 43px;
+	background-color: #f29400;
+	color: #fff;
+}
+.contRight{
+	width: 450px;
+	vertical-align: middle;
+	margin-left: 90px;
+}
+.contRight li{
+	height: 43px;
+}
+.contRight span{
+	font-size: 14px;
+	padding-left: 66px;
+	line-height: 43px;
+}
+
+/*footer*/
+footer{
+	height: 40px;
+	color: #fff;
+	background-color: #000;
+	text-align: center;
+	line-height: 40px;
+	font-size: 12px;
+}
