@@ -165,6 +165,7 @@ nav .navActive{
 	height: 43px;
 	background-color: #f29400;
 	color: #fff;
+	cursor:pointer;
 }
 .contRight{
 	width: 450px;

@@ -3,7 +3,6 @@ document.body.onload=init;
 function init() {
 	var navList=document.getElementsByClassName('navList');
 	var contLeft=document.getElementsByClassName('contLeft')[0];
-	var contList=contLeft.getElementsByTagName('li');
 	var contInput=contLeft.getElementsByClassName('contAInput');
 
 	for (var i = 0; i < navList.length; i++) {
