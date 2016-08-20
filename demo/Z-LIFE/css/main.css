@@ -11,9 +11,14 @@ nav li{
 	width: 90px;
 	line-height: 54px;
 	text-align: center;
+	margin-left: 30px;
+}
+nav li:hover{
+	border-bottom:6px solid #f29400;
 }
 nav li a{
 	color: #01A5DD;
+	padding: 10px;
 }
 nav .navActive{
 	border-bottom:6px solid #f29400;
@@ -134,6 +139,9 @@ nav .navActive{
 	height: 42px;
 	background-color: #5bb3e2;
 }
+.contLeft ul{
+	border:1px solid #0575a7;
+}
 .contLeft li{
 	width: 440px;
 	min-height: 43px;
@@ -161,7 +169,7 @@ nav .navActive{
 .contRight{
 	width: 450px;
 	vertical-align: middle;
-	margin-left: 90px;
+	margin-left: 85px;
 }
 .contRight li{
 	height: 43px;
