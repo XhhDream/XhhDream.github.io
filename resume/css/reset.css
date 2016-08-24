@@ -1,0 +1,22 @@
+*{
+	margin: 0;
+	padding:0;
+	border: 0;
+	text-decoration: none;
+	font-family: "微软雅黑";
+}
+li{
+	list-style: none;
+}
+textarea,input{
+	outline:none;
+}
+
+/*全局*/
+section{
+	background-color: #fff;
+	width: 100%;
+}
+.fl{
+	float: left;
+}

@@ -1,0 +1,13 @@
+/*header	*/
+#firstPage{
+	background-color: #22B573;
+	height: 700px;
+	text-align: center;
+}
+#firstPage h1{
+	color: #fff;
+	padding-top: 250px;
+	font-size: 35px;
+	letter-spacing: 8px;
+}
+#firstPage 
