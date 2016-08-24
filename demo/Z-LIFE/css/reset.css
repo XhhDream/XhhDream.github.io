@@ -15,6 +15,9 @@ textarea,input{
 
 
 /*全局*/
+section{
+	width: 100%;
+}
 .comWidth{
 	width: 1000px;
 	margin: 0 auto;
