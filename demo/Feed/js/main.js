@@ -39,7 +39,22 @@ var dustPic=[];
 
 var bgPic=new Image();
 
-document.body.onload=game;
+document.body.onload=start;
+
+function start() {
+	if(confirm("游戏规则：控制大鱼吃掉果实并把果实喂养给小鱼得分。所有果实初始分数为100，吃到蓝色果实意味下次喂养可获得双倍分数不可叠加。注意：小鱼在一定时间内得不到喂养将会死亡。你准备好了吗？")){
+		game();
+	}else{
+		alert("准备后可按回车键开始游戏");
+	}
+}
+
+document.onkeydown=function(event){
+ var e = event || window.event;
+ 	if(e.keyCode==13){
+ 		game();
+    }
+}
 function game() {
 	init();
 	lastTime= Date.now();
@@ -49,7 +64,7 @@ function game() {
 
 function init() {
 	//获得canvas context
-	can1=document.getElementById('canvas1');//fishes,dust,UI,circle
+	can1=document.getElementById('canvas1');//fish,dust,UI,circle
 	ctx1=can1.getContext('2d');
 	can2=document.getElementById('canvas2');//background,ane,fruits
 	ctx2=can2.getContext('2d');
@@ -122,6 +137,10 @@ function init() {
 }
 
 function gameloop(){
+	if (data.alpha==1) {
+		alert("按下回车键可重新开始");
+		return;
+	}
 	window.requestAnimFrame(gameloop);//setInterval,setTimeout
 	var now=Date.now();
 	deltaTime=now-lastTime;
