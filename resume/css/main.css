@@ -1,8 +1,9 @@
 /*header	*/
 #firstPage{
-	background-color: #22B573;
+	background-color: #22B573;/*#22B573  #34BF49*/
 	height: 700px;
 	text-align: center;
+		
 }
 #firstPage h1{
 	color: #fff;
@@ -10,4 +11,14 @@
 	font-size: 35px;
 	letter-spacing: 8px;
 }
-#firstPage 
+#firstPage h3{
+	color: #fff;
+	margin-top: 20px;
+	margin-bottom: 40px;
+	font-weight: 2px;
+}
+
+/*intro*/
+.introCont{
+	text-align: center;
+}
